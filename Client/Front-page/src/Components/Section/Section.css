@@ -1,0 +1,98 @@
+.sectionmainBox{
+    width: 100%;
+    height: 300px;
+ 
+    background-color: white;
+    display: flex;
+}
+
+.sectionmainBox .sectionText{
+    width: 70%;
+    height: 300px;
+   
+}
+.sectionText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.sectionText h3{
+    font-size: 40px;
+}
+.sectionText p{
+    color: rgb(104, 101, 101);
+
+}
+
+.sectionText div .sectionBtn{
+    width: 200px;
+    height: 50px;
+    background-color: #f6214b;
+    border: none;
+    color: white;
+}
+
+.sectionText div .sectionBtn:hover{
+    background-color: white;
+    border: #f6214b;
+    color: black;
+    
+}
+
+
+.requirements{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.requirements div h2{
+    font-size: 50px;
+}
+.requirements div p{
+    color: rgb(134, 129, 129);
+}
+
+.cards{
+    width: 100%;
+    height: 500px;
+   
+}
+.cards .cardBox{
+    width: 300px;
+    height: 400px;
+   
+
+}
+
+.cardBox .cardImg{
+    width: 100%;
+    height: 40%;
+}
+
+.cardBox .cardBtn{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    border: none;
+}
+.cardBox .cardBtn:hover{
+    background-color: #f6214b;
+    color: white;
+    border: none;
+}
+
+.cardBox p{
+    color: gray;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
